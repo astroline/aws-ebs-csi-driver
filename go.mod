@@ -4,7 +4,7 @@ require (
 	bitbucket.org/ww/goautoneg v0.0.0-20120707110453-75cd24fc2f2c // indirect
 	github.com/BurntSushi/toml v0.3.1 // indirect
 	github.com/NYTimes/gziphandler v1.0.1 // indirect
-	github.com/aws/aws-k8s-tester/e2e/tester v0.0.0-20190907061006-260b0e114d90 // indirect
+	github.com/aws/aws-k8s-tester/e2e/tester v0.0.0-20190907061006-260b0e114d90
 	github.com/aws/aws-sdk-go v1.16.26
 	github.com/container-storage-interface/spec v1.1.0
 	github.com/coreos/go-semver v0.2.0 // indirect
@@ -95,3 +95,5 @@ replace (
 	k8s.io/sample-cli-plugin => k8s.io/sample-cli-plugin v0.0.0-20190805143616-1485e5142db3
 	k8s.io/sample-controller => k8s.io/sample-controller v0.0.0-20190805142825-b16fad786282
 )
+
+go 1.13
