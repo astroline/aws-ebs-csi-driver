@@ -23,6 +23,8 @@ import (
 	"os"
 	"time"
 
+	dm "github.com/astroline/aws-ebs-csi-driver/pkg/cloud/devicemanager"
+	"github.com/astroline/aws-ebs-csi-driver/pkg/util"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/credentials"
@@ -31,8 +33,6 @@ import (
 	"github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	dm "github.com/astroline/aws-ebs-csi-driver/pkg/cloud/devicemanager"
-	"github.com/astroline/aws-ebs-csi-driver/pkg/util"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/klog"
 )
