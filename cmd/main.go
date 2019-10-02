@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kubernetes-sigs/aws-ebs-csi-driver/pkg/driver"
+	"github.com/astroline/aws-ebs-csi-driver/pkg/driver"
 	"k8s.io/klog"
 )
 

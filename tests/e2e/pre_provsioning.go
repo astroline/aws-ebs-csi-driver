@@ -21,15 +21,15 @@ import (
 	"os"
 	"strings"
 
-	awscloud "github.com/kubernetes-sigs/aws-ebs-csi-driver/pkg/cloud"
-	"github.com/kubernetes-sigs/aws-ebs-csi-driver/tests/e2e/driver"
-	"github.com/kubernetes-sigs/aws-ebs-csi-driver/tests/e2e/testsuites"
+	awscloud "github.com/astroline/aws-ebs-csi-driver/pkg/cloud"
+	"github.com/astroline/aws-ebs-csi-driver/tests/e2e/driver"
+	"github.com/astroline/aws-ebs-csi-driver/tests/e2e/testsuites"
 	. "github.com/onsi/ginkgo"
 	v1 "k8s.io/api/core/v1"
 	clientset "k8s.io/client-go/kubernetes"
 	"k8s.io/kubernetes/test/e2e/framework"
 
-	ebscsidriver "github.com/kubernetes-sigs/aws-ebs-csi-driver/pkg/driver"
+	ebscsidriver "github.com/astroline/aws-ebs-csi-driver/pkg/driver"
 )
 
 const (

@@ -26,7 +26,7 @@ import (
 
 	sanity "github.com/kubernetes-csi/csi-test/pkg/sanity"
 
-	"github.com/kubernetes-sigs/aws-ebs-csi-driver/pkg/driver"
+	"github.com/astroline/aws-ebs-csi-driver/pkg/driver"
 )
 
 const (

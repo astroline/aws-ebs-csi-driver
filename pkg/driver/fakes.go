@@ -17,8 +17,8 @@ limitations under the License.
 package driver
 
 import (
-	"github.com/kubernetes-sigs/aws-ebs-csi-driver/pkg/cloud"
-	"github.com/kubernetes-sigs/aws-ebs-csi-driver/pkg/driver/internal"
+	"github.com/astroline/aws-ebs-csi-driver/pkg/cloud"
+	"github.com/astroline/aws-ebs-csi-driver/pkg/driver/internal"
 	"k8s.io/kubernetes/pkg/util/mount"
 )
 

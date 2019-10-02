@@ -22,8 +22,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/kubernetes-sigs/aws-ebs-csi-driver/pkg/cloud"
-	"github.com/kubernetes-sigs/aws-ebs-csi-driver/pkg/util"
+	"github.com/astroline/aws-ebs-csi-driver/pkg/cloud"
+	"github.com/astroline/aws-ebs-csi-driver/pkg/util"
 )
 
 type fakeCloudProvider struct {

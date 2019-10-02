@@ -1,4 +1,4 @@
-module github.com/kubernetes-sigs/aws-ebs-csi-driver
+module github.com/astroline/aws-ebs-csi-driver
 
 require (
 	bitbucket.org/ww/goautoneg v0.0.0-20120707110453-75cd24fc2f2c // indirect
